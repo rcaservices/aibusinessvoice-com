@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page not found — AI Business Voice">
+  <title>404 — Page Not Found | AI Business Voice</title>
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: #0a0e27;
+      color: #e0e0e0;
+      overflow-x: hidden;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .bg-glow {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: 0.15;
+      pointer-events: none;
+    }
+
+    .bg-glow--blue {
+      background: #3b82f6;
+      top: -100px;
+      right: -100px;
+    }
+
+    .bg-glow--purple {
+      background: #8b5cf6;
+      bottom: -100px;
+      left: -100px;
+    }
+
+    .card {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .error-code {
+      font-size: 6rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #ffffff, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+      border-radius: 2px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .message {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #94a3b8;
+      margin-bottom: 2.5rem;
+    }
+
+    .home-link {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .home-link:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 2rem;
+      font-size: 0.85rem;
+      color: #475569;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    footer a {
+      color: #64748b;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #8b5cf6;
+    }
+
+    @media (max-width: 640px) {
+      .error-code {
+        font-size: 4rem;
+      }
+
+      h1 {
+        font-size: 1.35rem;
+      }
+
+      .message {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="bg-glow bg-glow--blue"></div>
+    <div class="bg-glow bg-glow--purple"></div>
+    <div class="card">
+      <div class="error-code">404</div>
+      <h1>Page Not Found</h1>
+      <div class="divider"></div>
+      <p class="message">
+        The page you're looking for doesn't exist or has been moved. Our site is currently under construction — check back soon.
+      </p>
+      <a href="/" class="home-link">Back to Home</a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 <a href="https://aspireconsultingpartners.com">Aspire Consulting Partners LLC</a>. All rights reserved.</p>
+  </footer>
+</body>
+</html>
